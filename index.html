@@ -1,0 +1,131 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+<style type="text/css">
+
+body { background:antiquewhite; padding:20px;}
+h2{
+	height:42px; 
+	line-height:42px;  
+	font-size:24px; 
+	background-color: rgb(54, 121, 229);
+	color:#ffffff; 
+	font-weight:normal;
+	text-align: center;
+}
+#myFocus{ width:570px; height:300px;} /*设定幻灯片区域的大小*/
+</style>
+<script type="text/javascript">
+//设置
+myFocus.set({
+	id:'myFocus',//ID
+	pattern:'mF_slide3D'//风格
+});
+</script>
+<style type="text/css">
+#Container {
+
+	width: 800px;
+}
+#d1 {
+	background-image: url(../web前端/images/02.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 645px;
+	width: 800px;
+	margin: auto;
+}
+#d1 #d2 {
+	height: 30px;
+	background-color: rgb(87, 80, 220);
+}
+
+</style>
+<script type="text/javascript">
+	function CheckUserInput(){
+	var txtName=document.getElementById("username");
+	var txtPwd=document.getElementById("password");
+	
+	
+	if(txtName.value==""||txtPwd.value==""){
+	  alert("用户名和密码不能为空！");
+	  return;
+	}
+	 var post_reg=/^[1-9]\d{5}(?!\d)/;
+	if(!post_reg.test(password.value)){
+	alert("邮政编码必须为6位整数！");
+	return;
+	}
+	}
+
+</script>
+<link href="../web前端/css/Head.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="d1">
+	<br /><br />
+<div id="d2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+  <a href="index.html">首页</a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="introduction.html" target="_blank"> 公司概况</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href="view.html" target="_blank"> 可视化作品展示</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href="team.html" target="_blank"> 团队成员</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="forum.html">论坛</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="our.html">关于我们</a>&nbsp;&nbsp; &nbsp;&nbsp;
+</div>
+<div id="Container">
+  <div id="Header">web前端</div>
+	<div id="SideBar">
+		<div id="section">
+			<div id="user-img">
+				<img src="../web前端/images/1.webp" alt="User Image">
+			</div>
+			<div id="section_1_top">用户登录</div>
+			<div id="section_1_mid">
+				<div class="myform">
+					<form action="" method="post">
+						<div class="frm_cont username">
+							<label for="username">用户名:</label>
+							<input type="text" name="username" id="username" />
+						</div>
+						<div class="frm_cont password">
+							<label for="password">密　码:</label>
+							<input type="password" name="password" id="password" />
+						</div>
+						<div class="btns">
+							<a href="login.html"target="_blank">
+								<input type="button" name="button1" id="button1" value="登录" onclick="return CheckUserInput()" />
+							</a>
+							<a href="register.html "target="_blank">
+								<input type="button" name="button2" id="button2" value="注册" />
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+						
+	</div>
+  <div id="PageBody">
+	  <div id="MainBody">
+		<h2>欢迎来到杰瑞互联科技有限公司</h2>
+<div id="myFocus">
+	
+ <div class="loading" ><img src="../web前端/images/loading.gif" alt="请稍后.."/></div>
+  <div class="pic">
+  	<ul>
+        <li><a href="#"><img src="../web前端/images/01.jpg" width="400"  height="200" /></a></li>
+        <li><a href="#"><img src="../web前端/images/02.jpg"  /></a></li>
+        <li><a href="#"><img src="../web前端/images/03.jpg" /></a></li>
+        <li><a href="#"><img src="../web前端/images/04.jpg"   /></a></li>
+        <li><a href="#"><img src="../web前端/images/05.jpg"  /></a></li>
+  	</ul>
+  </div>
+</div>
+</div>
+    
+  </div>
+  <div id="Footer">Copyright 2000-2020 杰瑞互联科技有限公司</div>
+	
+	</div>
+</div>
+</body>
+</html>
