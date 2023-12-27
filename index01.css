@@ -1,0 +1,367 @@
+/* css初始化 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/bg.jpg) no-repeat top center;
+  line-height: 1.15;
+}
+header {
+  height: 1.25rem;
+  background: url(../images/title.png) no-repeat;
+  background-size: 100% 100% ;
+}
+header h1 {
+  font-size: 0.475rem;
+  color: white;
+  line-height: 1rem ;
+  text-align: center;
+}
+.box01 {
+  display: flex;
+  min-width: 700px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.125rem 0.125rem 0;
+}
+.box01 .row {
+  flex: 3;
+  margin: 0 0.125rem 0.1875rem;
+}
+.box01 .row .panel01 {
+  position: relative;
+  height: 3.875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: url(../images/line\(1\).png) rgba(255, 255, 255, 0.04);
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+}
+.box01 .row .panel01::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box01 .row .panel01::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box01 .row .panel01 .panel-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.box01 .row .panel01 .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box01 .row .panel01 .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box01 .row .panel01 h2 {
+  text-align: center;
+  color: white;
+  line-height: 0.6rem;
+  font-weight: 400;
+  font-size: 0.25rem;
+}
+.box01 .row .panel01 .chart {
+  height: 3rem;
+}
+.box01 .row .panel02 {
+  position: relative;
+  height: 3.875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: url(../images/line\(1\).png) rgba(255, 255, 255, 0.04);
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+}
+.box01 .row .panel02::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box01 .row .panel02::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box01 .row .panel02 .panel-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.box01 .row .panel02 .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box01 .row .panel02 .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box01 .row .panel02 h2 {
+  text-align: center;
+  color: white;
+  line-height: 0.6rem;
+  font-weight: 400;
+  font-size: 0.25rem;
+}
+.box01 .row .panel02 .chart {
+  height: 3rem;
+}
+.box01 .row .panel03 {
+  position: relative;
+  height: 3.875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: url(../images/line\(1\).png) rgba(255, 255, 255, 0.04);
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+}
+.box01 .row .panel03::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box01 .row .panel03::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box01 .row .panel03 .panel-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.box01 .row .panel03 .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box01 .row .panel03 .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box01 .row .panel03 h2 {
+  text-align: center;
+  color: white;
+  line-height: 0.6rem;
+  font-weight: 400;
+  font-size: 0.25rem;
+}
+.box01 .row .panel03 .chart {
+  height: 3rem;
+}
+.box02 {
+  display: flex;
+  min-width: 700px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0.125rem 0.125rem 0;
+}
+.box02 .row {
+  flex: 2;
+}
+.box02 .row:nth-child(2) {
+  flex: 6;
+  margin: 0 0.125rem 0.1875rem;
+}
+.box02 .row .panel01 {
+  position: relative;
+  height: 4.175rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: url(../images/line\(1\).png) rgba(255, 255, 255, 0.04);
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+}
+.box02 .row .panel01::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box02 .row .panel01::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box02 .row .panel01 .panel-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.box02 .row .panel01 .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box02 .row .panel01 .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box02 .row .panel01 h2 {
+  text-align: center;
+  color: white;
+  line-height: 0.6rem;
+  font-weight: 400;
+  font-size: 0.25rem;
+}
+.box02 .row .panel01 .chart {
+  height: 3rem;
+}
+.box02 .row .panel02 {
+  position: relative;
+  height: 4.175rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: url(../images/line\(1\).png) rgba(255, 255, 255, 0.04);
+  padding: 0 0.1875rem 0.7rem;
+  margin-bottom: 0.1875rem;
+}
+.box02 .row .panel02::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box02 .row .panel02::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box02 .row .panel02 .panel-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.box02 .row .panel02 .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-left: 1px solid #02a6b5;
+}
+.box02 .row .panel02 .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #02a6b5;
+  border-right: 1px solid #02a6b5;
+}
+.box02 .row .panel02 h2 {
+  text-align: center;
+  color: white;
+  line-height: 0.6rem;
+  font-weight: 400;
+  font-size: 0.25rem;
+}
+.box02 .row .panel02 .chart {
+  height: 3rem;
+}
+
